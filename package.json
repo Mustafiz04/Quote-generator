@@ -1,0 +1,33 @@
+{
+  "name": "@mustafiz04/quote-generator",
+  "version": "0.0.1",
+  "description": "NPM package to generate randon quote",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha",
+    "test-lint": "eslint . --ext .js, ./examples --ext .js, ./data --ext .json --color"
+  },
+  "author": "Mustafiz Kaifee",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mustafiz04/Quote-generator.git"
+  },
+  "keywords": [
+    "QuoteGenerator"
+  ],
+  "bugs": {
+    "url": "https://github.com/Mustafiz04/Quote-generator/issues"
+  },
+  "homepage": "https://github.com/Mustafiz04/Quote-generator#readme",
+  "directories": {
+    "example": "examples",
+    "data": "data"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.32.0",
+    "mocha": "^9.1.2"
+  }
+}
