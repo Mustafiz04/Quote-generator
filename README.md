@@ -1,30 +1,25 @@
 # Quote-generator
 
+This is a random quote generator that picks quotes radnomly from a given .json file. This repository is useful to first-time contributors as well as skilled coders.
 
+Contributions for Hacktoberfest are also accepted.
 
-
-
-
-Hacktoberfest® is open to everyone in our global community. Whether you’re a developer or a student learning to code.
-
-Enter Your email on our Webiste to win T-shirt.
-
-Website - <https://hacktoberfest.digitalocean.com/>
+Hacktoberfest® is an yearly event, open to everyone in our global community. Whether you’re a developer or a student learning to code.
+Learn more at the official website - <https://hacktoberfest.digitalocean.com/>
 
 ## How to Participate
 
-1. ### Fork the Repo
+1. ### Fork this Repository
 
-   Give a start and ⭐ Click on **fork** button in the right corner.It will create a copy of repositiry in your account.
+   Give a start and ⭐ Click on **fork** button in the top right corner. It will create a copy of repository in your account.
 
     - Check here [How to fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo)
 
 2. ### Clone the Repo
 
-   You can **clone** your repository in your local pc with use of **[Github_Desktop](https://desktop.github.com/)** application or for your [Terminal/bash](https://git-scm.com/downloads).
+   You can **clone** your repository in your local pc with use of **[Github_Desktop](https://desktop.github.com/)** application or git [Terminal/bash](https://git-scm.com/downloads).
 
-   For **Terminal** -
-
+   **Command to clone** -
    ```bash
    git clone <url_name>
    ```
@@ -40,22 +35,23 @@ Website - <https://hacktoberfest.digitalocean.com/>
     
 4. ### Upload your Code or Change
 
-    Update you quote in `quotes.json`
+    Update your quote in `quotes.json` by adding a new object to the end of array in the following format
     
-    format to follow
     ```bash
         {
           "text": "The only people who never fail are those who never try.",
           "from": "Ilka Chase"
         }
     ```
-    Make what change you want to make in Repo. It can be spelling mistake, code correction, not dublicates or anything.
+    OR
+    Make any other changes/improvements that you want. It can be a spelling mistake, code correction, etc. Please refrain from duplicating previous work.
 
-    `All Repository are open for contributions.`
+    `Repository is fully open for contributions.`
 
-5. ### Push it and Make a PR
+5. ### Push your local changes to Github, and Make a PR to this repo.
 
     Push it to your repository and Issue a PR(Pull Request) in main repository.
+    Create Pull request by going to https://github.com/Mustafiz04/Quote-generator/compare
 
     - [Push your first code](https://docs.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
 
